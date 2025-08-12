@@ -1,6 +1,6 @@
-## 电信吸烟检测
+## Smoke Detection Using Yolo
 
-### 环境安装
+### environment setup
 ```bash
 conda create -n venv python=3.9
 ```
@@ -10,15 +10,15 @@ conda activate venv
 ```bash
 pip install -r requirements.txt
 ```
-### 运行
-#### 下载uvicorn
+### Running
+#### Download uvicorn
 ```bash
 pip install uvicorn
 ```
 ```bash
 uvicorn main:app --port 3000 --workers 4
 ```
-### 测试
+### testing
 ```bash
 cd test
 python testapi.py
